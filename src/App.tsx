@@ -122,7 +122,7 @@ function App() {
                 <div className="absolute top-0 -left-2 h-full w-0.5 bg-blue-500 opacity-30"></div>
                 <div className="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform">
                   <h3 className="text-xl font-bold mb-2">Escola Secundaria Aguas Santas</h3>
-                  <p className="text-gray-400 mb-2">ATEC | 2017 - 2020</p>
+                  <p className="text-gray-400 mb-2">Esas | 2017 - 2020</p>
                   <p className="text-gray-300">
                     Curso de Gestão de Sistemas Informáticos, onde adquiri conhecimentos fundamentais em:
                   </p>
