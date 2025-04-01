@@ -47,7 +47,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       {/* Header/Hero Section */}
       <header className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('./assets/hero-bg.jpg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1555066931-4365d14bab8c')] bg-cover bg-center opacity-10" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900/50" />
         <div className="container mx-auto px-4 py-16 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
@@ -67,7 +67,7 @@ function App() {
             </div>
             <div className="flex justify-center gap-6 mt-8">
               <a
-                href="https://github.com/seu-usuario"
+                href="https://github.com/wannantc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors animate-slide-left"
