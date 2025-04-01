@@ -111,6 +111,30 @@ function App() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16 scroll-animate">Minha Jornada</h2>
           <div className="max-w-4xl mx-auto">
+            {/* Timeline Item 0 */}
+            <div className="flex flex-col md:flex-row gap-8 mb-16 scroll-animate">
+              <div className="md:w-1/3 flex justify-end">
+                <div className="bg-blue-500 p-3 rounded-full h-fit">
+                  <GraduationCap className="w-6 h-6 animate-pulse-slow" />
+                </div>
+              </div>
+              <div className="md:w-2/3 relative">
+                <div className="absolute top-0 -left-2 h-full w-0.5 bg-blue-500 opacity-30"></div>
+                <div className="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform">
+                  <h3 className="text-xl font-bold mb-2">Escola Secundaria Aguas Santas</h3>
+                  <p className="text-gray-400 mb-2">ATEC | 2017 - 2020</p>
+                  <p className="text-gray-300">
+                    Curso de Gestão de Sistemas Informáticos, onde adquiri conhecimentos fundamentais em:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-300 mt-2">
+                    <li>Programação Orientada a Objetos</li>
+                    <li>Python</li>
+                    <li>c#/c</li>
+                    <li>HTML/Php/Mysql</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             {/* Timeline Item 1 */}
             <div className="flex flex-col md:flex-row gap-8 mb-16 scroll-animate">
               <div className="md:w-1/3 flex justify-end">
@@ -147,7 +171,7 @@ function App() {
                 <div className="absolute top-0 -left-2 h-full w-0.5 bg-green-500 opacity-30"></div>
                 <div className="bg-gray-800 p-6 rounded-lg hover:scale-105 transition-transform">
                   <h3 className="text-xl font-bold mb-2">Estágio Profissional</h3>
-                  <p className="text-gray-400 mb-2">Empresa XYZ | 2023</p>
+                  <p className="text-gray-400 mb-2">Instituto Criap | 2023</p>
                   <p className="text-gray-300">
                     Participação em projetos reais, desenvolvendo soluções web e aplicando conhecimentos em:
                   </p>
