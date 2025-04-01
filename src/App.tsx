@@ -245,7 +245,7 @@ function App() {
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-xl transition-shadow scroll-animate">
               <div className="relative overflow-hidden group">
                 <img 
-                  src="./assets/project1.jpg"
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
                   alt="Project 1"
                   className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -265,7 +265,7 @@ function App() {
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-xl transition-shadow scroll-animate" style={{ transitionDelay: '0.2s' }}>
               <div className="relative overflow-hidden group">
                 <img 
-                  src="./assets/project2.jpg"
+                  src="https://images.unsplash.com/photo-1551650975-87deedd944c3"
                   alt="Project 2"
                   className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-110"
                 />
