@@ -62,7 +62,7 @@ function App() {
                 Com 22 anos, sempre fui fascinado pelo mundo tecnológico. Minha jornada na programação
                 começou com uma formação sólida na ATEC, onde desenvolvi uma base forte em desenvolvimento
                 de software. Sou apaixonado por criar soluções inovadoras e estou constantemente
-                aprendendo novas tecnologias para expandir meus horizontes.
+                a exploprar novas tecnologias para expandir meus horizontes.
               </p>
             </div>
             <div className="flex justify-center gap-6 mt-8">
